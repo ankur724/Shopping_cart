@@ -1,0 +1,135 @@
+*{margin: 0;
+padding: 0;
+
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.heading{
+    font-size:25px ;
+    color: white;
+    position: absolute;
+    right: 200px;
+    top: 95px;
+    
+
+}
+.static-txt{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+  }
+  .dynamic-txts{
+    margin-left: 15px;
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+  }
+  .dynamic-txts li{
+    list-style: none;
+    color: white;
+    font-size: 80px;
+    font-weight: 450;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+  }
+  @keyframes slide {
+    100%{
+      top: -360px;
+    }
+  }
+  .dynamic-txts li span{
+    position: relative;
+    left: 10px;
+    line-height: 90px;
+  }
+  .dynamic-txts li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #ffd747;
+    border-left: 4px solid #FC6D6D;
+    animation: typing 3s steps(10) infinite;
+  }
+  @keyframes typing {
+    40%, 60%{
+      left: calc(100% + 30px);
+    }
+    100%{
+      left: 0;
+    }
+  }
+  .image{
+    height: 600px;
+    width: 400px;
+    background-size: 345px;
+    background-repeat: no-repeat;
+    background-image: url(https://images.pexels.com/photos/5625128/pexels-photo-5625128.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  }
+.animation{
+  
+    color: white;
+    position: absolute;
+    box-sizing: border-box;
+    left: 551px;
+   top: 275px;
+    
+}
+.nav{
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ffd747;
+    /* background-image: url(https://t0.gstatic.com/images?q=tbn:ANd9GcRTR1KLHAZrS1iQMXDi1I-4AhiIa4G9cx59Y6JsYsB5q0HJmMYa); */
+    width: 100%;
+}
+.shopping-card{
+ /* 28b4b5 */
+    cursor: pointer;
+    font-size: xx-large;
+    justify-content: space-between;
+    background-color: #19191A;
+    padding: 20px 30px;
+    color: white;
+}
+.shopping-card:hover{color: aquamarine;}
+.product-item {
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  .button:hover {opacity: 1}
+  .button{
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+ 
+  }
+  .cartlist
+  {
+    height: 300px;
+    width: 100%;
+    font-size: xx-large;
+  }
+  .cartlist img{
+    height: 180px;
+    width: 230px;
+  }
+  .cartlist button{
+    width: 30px;
+    position: relative;
+    height: 25px;
+    top: -5px;
+  }
