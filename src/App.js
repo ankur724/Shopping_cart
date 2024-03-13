@@ -34,7 +34,7 @@ function App() {
       price: 150000
     },
     {
-      url: 'https://images.pexels.com/photos/16584090/pexels-photo-16584090/free-photo-of-low-angle-shot-of-a-man-standing-on-a-tree-branch-and-smiling.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      url: 'https://images.pexels.com/photos/20232807/pexels-photo-20232807/free-photo-of-model-in-a-brown-leather-jacket-and-gray-sweater-posing-on-a-footbridge.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       name: 'Brown Jacket',
       category: 'Jacket',
       seller: 'Camron LTD',
