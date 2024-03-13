@@ -34,7 +34,7 @@ function App() {
       price: 150000
     },
     {
-      url: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fphotos%2Fman-in-brown-jacket-and-blue-denim-jeans-sitting-on-brown-concrete-bench-during-daytime-d54wbtjedog&psig=AOvVaw0iA4u_yyoemADVAG1QO2DG&ust=1710401696978000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKC4m4Pd8IQDFQAAAAAdAAAAABAE',
+      url: 'https://images.pexels.com/photos/16584090/pexels-photo-16584090/free-photo-of-low-angle-shot-of-a-man-standing-on-a-tree-branch-and-smiling.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       name: 'Brown Jacket',
       category: 'Jacket',
       seller: 'Camron LTD',
