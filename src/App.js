@@ -34,7 +34,7 @@ function App() {
       price: 150000
     },
     {
-      url: 'https://www.levi.in/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw6681977d/images/hi-res/588750007/588750007_01_Front.jpg',
+      url: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fphotos%2Fman-in-brown-jacket-and-blue-denim-jeans-sitting-on-brown-concrete-bench-during-daytime-d54wbtjedog&psig=AOvVaw0iA4u_yyoemADVAG1QO2DG&ust=1710401696978000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKC4m4Pd8IQDFQAAAAAdAAAAABAE',
       name: 'Brown Jacket',
       category: 'Jacket',
       seller: 'Camron LTD',
